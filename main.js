@@ -24,6 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
         e.preventDefault();
         loginForm.classList.add("form--hidden");
         createAccountForm.classList.remove("form--hidden");
+        location.replace("index1.html");
     });
 
     document.querySelector("#linkLogin").addEventListener("click", e => {
